@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Павлюкова](https://htmlacademy.ru/profile/id164074).
-* Наставник: `Неизвестно`.
+* Наставник: [Марина Сулим] (https://htmlacademy.ru/profile/marina_borisova).
 
 ---
 
