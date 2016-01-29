@@ -27,41 +27,42 @@
 		 </div>
      </header>
 	 <main class="container">
-	     <div class="filter>
+	     <div class="filter">
 		     <form action="#" method="get">
-			   <b class="filter-name-1">Инфраструктура:<b><br>
-			   <p class="filter-1">
+			   <legend class="filter-1-legend">Инфраструктура:</legend>
+			   <div class="filter-1">
 			     <label><input type="checkbox" name="option1" value="swimmingpool" checked>Бассейн</label><br>
                  <label><input type="checkbox" name="option1" value="parking">Парковка</label><br>
 				 <label><input type="checkbox" name="option1" value="wi-fi">Wi-Fi</label>
-			   </p>
-			   <b class="filter-name-2">Тип жилья:<b><br>
-			   <p class="filter-2">
+       </div>
+			   <legend class="filter-2-legend">Тип жилья:<legend>
+			   <div class="filter-2">
 			     <label><input type="checkbox" name="option1" value="hotel" checked>Гостиница</label><br>
                  <label><input type="checkbox" name="option1" value="motel" checked>Мотель</label><br>
 				 <label><input type="checkbox" name="option1" value="apartment" checked>Апартаменты</label>
-			   </p>
-			   <b class="filter-name-3">Стоимость в сутки(Р):<b><br>
-			   <b class="filter-3-position-1">От 0</b>
-			   <b class="filter-3-position-2">До 3000</b>
-			   <p class="filter-3">
-			     <input type="range" name="rng" min="0" max="5000" step="1" value="3000"> 
-			   </p>
+       </div>
+			   <legend class="filter-3-legend">Стоимость в сутки(Р):<legend>
+        <div class="filter-3">
+         <input type="text" name="min-pr" id="min-price" value="От 0">
+			   <input type="text" name="max-pr" id="max-price" value="До 3000">
+			   <input type="range" name="rng" min="0" max="5000" step="1" value="3000">
+       </div>
 			   <button class="btn"type="submit">Показать</button>
-			 </form>			     
+			 </form>
 		 </div>
 		 <div class="sort">
-		     <b class="results-name">Найдено:</b>
-			 <div class="results-number">3</b>
+       <div class="results">
+		  <b class="results-name">Найдено:3</b>
+			</div>
 			 <div class="sort-type">
 			     <b class="name-sort-type">Сортировка:</b>
-				 <button class="sort-type-price" href="#">По цене</button>
-				 <button class="sort-type-kind" href="#">По типу</button>
-				 <button class="sort-type-rating" href="#">По рейтингу</button>
+				 <a class="sort-type-price" href="#">По цене </a>
+				 <a class="sort-type-kind" href="#">По типу</a>
+				 <a class="sort-type-rating" href="#">По рейтингу</a>
 			 </div>
 			 <div class="sort-btn">
-			     <button class="sort-btn-up" href="#"></button>
-				 <button class="sort-btn-down" href="#"></button>
+			   <a class="sort-btn-up" href="#"></a>
+				 <a class="sort-btn-down" href="#"></a>
 			 </div>
 		 </div>
 		 <div class="issue">
@@ -70,22 +71,22 @@
 				     <img src="img/placehold.it" width="" height="" alt="hotel-1">
 				 </div>
 				 <div class="issue-1-hotel">
-				     <p>Amara resort & SPA</p>
+				     <span>Amara resort & SPA</span>
 				 </div>
 				 <div class="issue-1-type">
-				     <p>Гостиница</p>
+				     <span>Гостиница</span>
 				 </div>
 				 <div class="issue-1-price">
-				     <p>От 3500 Р.</p>
+				     <span>От 3500 Р.</span>
 				 </div>
 				 <div class="issue-1-btn">
 				     <a class="issue-1-detail" href="#">Подробнее</a>
 					 <a class="issue-1-booked" href="#">Забронировать</a>
 				 </div>
-				 <div class="issue-1-rating">	
-                    <img src="img/placehold.it" width="" height="" alt="stars">	
+				 <div class="issue-1-rating">
+                    <img src="img/placehold.it" width="" height="" alt="stars">
                      <div class="issue-1-rating-value">
-					    <p>Рейтинг:8,5</p>
+					    <span>Рейтинг:8,5</span>
 					 </div>
 			     </div>
 		 </div>
@@ -95,22 +96,22 @@
 				     <img src="img/placehold.it" width="" height="" alt="hotel-2">
 				 </div>
 				 <div class="issue-2-hotel">
-				     <p>Desert QUAIL INN</p>
+				     <span>Desert QUAIL INN</span>
 				 </div>
 				 <div class="issue-2-type">
-				     <p>Мотель</p>
+				     <span>Мотель</span>
 				 </div>
 				 <div class="issue-2-price">
-				     <p>От 2000 Р.</p>
+				     <span>От 2000 Р.</span>
 				 </div>
 				 <div class="issue-2-btn">
 				     <a class="issue-2-detail" href="#">Подробнее</a>
 					 <a class="issue-2-booked" href="#">Забронировать</a>
 				 </div>
-				 <div class="issue-2-rating">	
-                    <img src="img/placehold.it" width="" height="" alt="stars">	
+				 <div class="issue-2-rating">
+                    <img src="img/placehold.it" width="" height="" alt="stars">
                      <div class="issue-2-rating-value">
-					    <p>Рейтинг:8,9</p>
+					    <span>Рейтинг:8,9</span>
 					 </div>
 			     </div>
 		 </div>
@@ -120,22 +121,22 @@
 				     <img src="img/placehold.it" width="" height="" alt="hotel-3">
 				 </div>
 				 <div class="issue-3-hotel">
-				     <p>Villas at poco Diablo</p>
+				     <span>Villas at poco Diablo</span>
 				 </div>
 				 <div class="issue-3-type">
-				     <p>Апартаменты</p>
+				     <span>Апартаменты</span>
 				 </div>
 				 <div class="issue-3-price">
-				     <p>От 4000 Р.</p>
+				     <span>От 4000 Р.</span>
 				 </div>
 				 <div class="issue-3-btn">
 				     <a class="issue-3-detail" href="#">Подробнее</a>
 					 <a class="issue-3-booked" href="#">Забронировать</a>
 				 </div>
-				 <div class="issue-3-rating">	
-                    <img src="img/placehold.it" width="" height="" alt="stars">	
+				 <div class="issue-3-rating">
+                    <img src="img/placehold.it" width="" height="" alt="stars">
                      <div class="issue-3-rating-value">
-					    <p>Рейтинг:9,2</p>
+					    <span>Рейтинг:9,2</span>
 					 </div>
 			     </div>
 		 </div>
