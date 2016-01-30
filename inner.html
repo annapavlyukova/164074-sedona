@@ -29,19 +29,24 @@
 	 <main class="container">
 	   <div class="filter">
 	     <form action="#" method="get">
-			   <legend class="filter-legend-1">Инфраструктура:</legend>
-			   <div class="filter-stracture">
-			     <label><input type="checkbox" name="option1" value="swimmingpool" checked>Бассейн</label><br>
-           <label><input type="checkbox" name="option1" value="parking">Парковка</label><br>
-		  		 <label><input type="checkbox" name="option1" value="wi-fi">Wi-Fi</label>
-         </div>
-			   <legend class="filter-legend-2">Тип жилья:<legend>
-			   <div class="filter-house">
-			     <label><input type="checkbox" name="option1" value="hotel" checked>Гостиница</label><br>
-           <label><input type="checkbox" name="option1" value="motel" checked>Мотель</label><br>
-				   <label><input type="checkbox" name="option1" value="apartment" checked>Апартаменты</label>
-         </div>
-			   <legend class="filter-legend-3">Стоимость в сутки(Р):<legend>
+         <fieldset>
+           <legend class="filter-name-1">Инфраструктура:</legend>
+			     <div class="filter-stracture">
+			      <label><input type="checkbox" name="option1" value="swimmingpool" checked>Бассейн</label><br>
+            <label><input type="checkbox" name="option1" value="parking">Парковка</label><br>
+		  		  <label><input type="checkbox" name="option1" value="wi-fi">Wi-Fi</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="filter-name-2">Тип жилья:</legend>
+			    <div class="filter-house">
+			      <label><input type="checkbox" name="option1" value="hotel" checked>Гостиница</label><br>
+            <label><input type="checkbox" name="option1" value="motel" checked>Мотель</label><br>
+				    <label><input type="checkbox" name="option1" value="apartment" checked>Апартаменты</label>
+          </div>
+        </fieldset>
+        <fieldset>
+         <legend class="filter-name-3">Стоимость в сутки(Р):</legend>
          <div class="filter-price">
            <div class="min-max-price">
              <span class="min-price">От 0</span>
@@ -58,7 +63,8 @@
              </div>
            </div>
          </div>
-			   <button class="btn" type="submit">Показать</button>
+        </fieldset>
+  		  <button class="btn" type="submit">Показать</button>
 			 </form>
 		 </div>
 		 <div class="sort">
