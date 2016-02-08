@@ -28,9 +28,9 @@
 		 </nav>
 	 </header>
 	 <main class="container">
-	   <div class="filter">
+	   <div class="filter clearfix">
 	     <form action="#" method="get">
-         <fieldset>
+         <fieldset class="filter-item-1">
            <legend class="filter-name-1">Инфраструктура:</legend>
 			     <div class="filter-stracture">
 			      <label><input type="checkbox" name="option1" value="swimmingpool" checked>Бассейн</label><br>
@@ -38,7 +38,7 @@
 		  		  <label><input type="checkbox" name="option1" value="wi-fi">Wi-Fi</label>
           </div>
         </fieldset>
-        <fieldset>
+        <fieldset class="filter-item-2">
           <legend class="filter-name-2">Тип жилья:</legend>
 			    <div class="filter-house">
 			      <label><input type="checkbox" name="option1" value="hotel" checked>Гостиница</label><br>
@@ -46,7 +46,7 @@
 				    <label><input type="checkbox" name="option1" value="apartment" checked>Апартаменты</label>
           </div>
         </fieldset>
-        <fieldset>
+        <fieldset class="filter-item-3">
          <legend class="filter-name-3">Стоимость в сутки(Р):</legend>
          <div class="filter-price">
            <div class="min-max-price">
@@ -68,15 +68,15 @@
   		  <button class="btn" type="submit">Показать</button>
 			 </form>
 		 </div>
-		 <div class="sort">
+		 <div class="sort clearfix">
        <div class="results">
 		     <b class="results-name">Найдено:3</b>
 	  	 </div>
 			 <div class="sort-type">
 		     <b class="name-sort-type">Сортировка:</b>
-				 <a class="sort-type-price" href="#">По цене </a>
-				 <a class="sort-type-kind" href="#">По типу</a>
 				 <a class="sort-type-rating" href="#">По рейтингу</a>
+         <a class="sort-type-kind" href="#">По типу</a>
+         <a class="sort-type-price" href="#">По цене </a>
 			 </div>
 			 <div class="sort-btn">
 			   <a class="sort-btn-up" href="#"></a>
@@ -84,7 +84,7 @@
 			 </div>
 		 </div>
 		 <div class="issue">
-		     <div class="issue-item">
+		     <div class="issue-item clearfix">
             <img class="issue-img" src="img/hotel_1.png" width="135" height="90" alt="hotel-1">
 				 		 <div class="issue-info">
 				       <span class="issue-name">Amara resort & SPA</span>
@@ -104,7 +104,7 @@
 					 </div>
 			  </div>
 		 </div>
-     <div class="issue">
+     <div class="issue clearfix">
 		     <div class="issue-item">
             <img class="issue-img" src="img/hotel_2.png" width="135" height="90" alt="hotel-2">
 				 		 <div class="issue-info">
@@ -123,7 +123,7 @@
 					 </div>
 			  </div>
 		 </div>
-     <div class="issue">
+     <div class="issue clearfix">
 		     <div class="issue-item">
             <img class="issue-img" src="img/hotel-3.png" width="135" height="90" alt="hotel-3">
 				 		 <div class="issue-info">
@@ -131,7 +131,7 @@
   				     <span class="issue-type">Апартаменты</span>
 				 	     <span class="issue-price">От 4000 Р.</span>
 				     </div>
-				     <div class="issue-btn">
+				     <div class="issue-btn ">
 				       <a class="issue-detail" href="#">Подробнее</a>
 					     <a class="issue-booked" href="#">Забронировать</a>
 				    </div>
