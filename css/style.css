@@ -44,8 +44,10 @@ font-family: 'PT Sans', sans-serif;
 
 }
 .main-navigation li{
+  margin:0;
+  padding:0;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 35px;
   font-size: 14px;
 }
 .container{
@@ -77,7 +79,7 @@ font-family: 'PT Sans', sans-serif;
   width: 768px;
   }
 .features-img-right{
-  width:254px;
+  width:256px;
   float:left;
   background-color: #81b3d2;
   color: #ffffff;
@@ -97,7 +99,7 @@ float:right;
   margin-left: 45px;
 }
 .features-img-left{
-  width:254px;
+  width:256px;
   float:right;
 }
 .img-left{
@@ -167,14 +169,20 @@ padding-bottom: 35px;
   width: 355px;
 }
 .sort-type-rating{
+margin: 0;
+padding: 0;
 display:inline-block;
 margin-left: 20px;
 }
 .sort-type-kind{
+margin:0;
+padding:0;
 display: inline-block;
 margin-left: 20px;
 }
 .sort-type-price{
+  margin:0;
+  padding:0;
   display: inline-block;
   margin-left: 20px;
 }
@@ -198,13 +206,13 @@ margin-left: 20px;
   display: block;
 }
 .issue-type{
-display: block;
+display: inline-block;
 }
 .issue-price{
-  display: block;
+  display: inline-block;
 }
 .issue-btn{
-  float: left;
+  display:block;
 }
 .issue-rating
 {
