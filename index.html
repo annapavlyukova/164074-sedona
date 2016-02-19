@@ -3,12 +3,13 @@
   <head>
       <meta charset="utf-8">
       <link href="css/style.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/symbols-sedona.css">
+      <link rel="stylesheet" href="fonts/symbols-sedona.css">
       <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
       <title>HTML Academy: Седона</title>
   </head>
   <body>
     <header class="main-header">
+      <img class="logo" src="img/logo_small.png" height="70" width="138" alt="logo-small">
       <nav class="main-navigation">
         <ul>
           <li>
@@ -29,32 +30,32 @@
     <main class="container">
       <img class="main-img" src="img/sedona_main.jpg" width="768" height="513" alt="welcome to Sedona">
       <div class="info">
-        <p class="info-determ">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="info-determ">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="info-reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
       </div>
       <div class="features-main">
         <div class="features-img  clearfix">
           <div class="features-img-right">
-            <b class="features-name white-name">Настоящий городок</b></br>
-            <span class="fetures-number">-№1-</span>
+            <b class="features-name white-name">Настоящий городок</b>
+            <span class="features-number">-№1-</span>
             <p class="features-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
           </div>
           <img class="img-right" src="img/features_right.jpg" width="512" height="256" alt="true city">
         </div>
         <div class="features clearfix">
           <div class="features-item">
-            <img class="icon" src="img/icon_home.png" width="75" height="72" alt="true city"></br>
+            <div class="icon-home"></div>
             <b class="features-name">Жилье</b>
             <p class="features-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
           <div class="features-item ">
-            <img class="icon" src="img/icon_burger.png" width="74" height="70" alt="true city"></br>
+            <div class="icon-burger"></div>
             <b class="features-name">Еда</b>
             <p class="features-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </div>
           <div class="features-item ">
-            <img src="img/icon_gift.png" width="64" height="76" alt="true city">
-            <b class="features-name">Сувениры</b></br>
+            <div class="icon-souvenir"></div>
+            <b class="features-name">Сувениры</b>
             <p class="features-text">Не только китайского, но и местного производства!</p>
           </div>
         </div>
@@ -68,17 +69,17 @@
         </div>
         <div class="features features-gray clearfix">
           <div class="features-item">
-             <b class="reasons-name">Небольшая площадь</b></br>
+             <b class="reasons-name">Небольшая площадь</b>
              <span class="reasons-number">-№3-</span>
-             <p class="reasons-text">Все достопримечательности находятся очень близко</p>
+             <p class="reasons-text">Все достопримеча-тельности находятся очень близко</p>
            </div>
            <div class="features-item">
-             <b class="reasons-name">Красивая дорога</b></br>
+             <b class="reasons-name">Красивая дорога</b>
              <span class="reasons-number">-№4-</span>
              <p class="reasons-text" >Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
            </div>
            <div class="features-item">
-             <b class="reasons-name">Мало туристов</b></br>
+             <b class="reasons-name">Мало туристов</b>
              <span class="reasons-number">-№5-</span>
              <p class="reasons-text">Большинство едет в Гранд Каньон толпятся там</p>
            </div>
@@ -86,23 +87,43 @@
       </div>
        <div class="interests">
          <b class="interests-name">Заинтересовались?</b>
-			   <p>Укажите предполагаемые даты поездки,</p>
-         <p> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+			   <p class="interests-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 		   </div>
 		   <div class="form">
 		     <form action="#" method="get">
            <fieldset>
             <legend class="form-legend">Поис гостиницы в Седоне</legend>
+            <div class="form-group">
+              <div class="check-in">
+                <label class="form-label" for="ch-in">Дата заезда:</label>
+    				    <input class="calender" type="text" name="check-in"  id="ch-in" value="24 апреля 2016">
+              </div>
+              <div class="check-out">
+                <label  class="form-label" for="ch-out">Дата выезда:</label>
+    				    <input class="calender" type="text" name="check-out"  id="ch-out" value="4 июля 2016">
+              </div>
+              <div class="adult-number">
+                <label  class="form-label" for="ad">Взрослые:</label>
+    				    <input  type="text" name="adult" id="ad" value="2" min="0" max="20" step="1">
+                <div class="plus">
 
-              <label class="form-label" for="ch-in">Дата заезда</label>
-  				    <input type="date" name="check-in"  id="ch-in" value="2016-04-24" max="2016-12-30" min="2016-01-27"><br>
-  				    <label  class="form-label" for="ch-out">Дата выезда</label>
-  				    <input type="date" name="check-out"  id="ch-out" value="2016-07-04" max="2016-12-31" min="2016-01-28"><br>
-  				    <label  class="form-label" for="ad">Взрослые</label>
-  				    <input type="number" name="adult" id="ad" value="2" min="0" max="20" step="1">
-  				    <label  class="form-label" for="chld">Дети</label>
-  				    <input type="number" name="child" id="chld" value="0" min="0" max="20" step="1"><br>
+                </div>
+                <div class="minus">
 
+                </div>
+    				  </div>
+              <div class="child-number">
+                <label  class="form-label" for="chld">Дети:</label>
+    				    <input type="text" name="child" id="chld" value="0" min="0" max="20" step="1">
+                <div class="plus-ch">
+
+                </div>
+                <div class="minus-ch">
+
+                </div>
+    				  </div>
+              </div>
+  				  </div>
           </fieldset>
            <button class="btn" type="submit">Найти</button>
     		 </form>
@@ -112,11 +133,11 @@
 	 <footer class="main-footer clearfix">
        <a class="visit" href="#">#Visitsedona</a>
 		   <div class="footer-social">
-         <a class="social-btn social-btn-twitter icon-twitter" href="#">Твиттер</a>
-         <a class="social-btn social-btn-fb icon-facebook" href="#">Фейсбук</a>
-         <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+         <a class="social-btn social-btn-twitter" href="#"></a>
+         <a class="social-btn social-btn-fb" href="#"></a>
+         <a class="social-btn social-btn-youtube" href="#"></a>
        </div>
-		   <a class="img-developers" href="#"><img src="img/footer.png" width="113" height="39" alt="developers"></a>
+		   <a class="developers img-developers" href="#">Website by</a>
 	  </footer>
   </body>
 </html>
