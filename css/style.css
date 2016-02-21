@@ -1019,7 +1019,7 @@ input#chld{
   display: inline-block;
   margin-right: 3px;
 }
-.last{
+.issue-rating img:last-of-type{
   margin-right: 0;
 }
 .rating{
