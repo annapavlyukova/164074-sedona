@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-      <meta charset="utf-8">
-      <link href="css/style.css" rel="stylesheet">      
-      <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-      <title>HTML Academy: Седона</title>
+    <meta charset="utf-8">
+    <link href="css/style-minify.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="main-header">
-      <a href="index.html"><img class="logo" src="img/logo_small.png" height="70" width="138" alt="logo-small"></a>
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="index.html">Информация</a>
-          </li>
-          <li>
-            <a href="#">Фото и видео</a>
-          </li>
-          <li>
-            <a href="#">Карта штата</a>
-          </li>
-          <li>
-            <a href="inner.html">Гостиницы</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="container">
+    <div class="container">
+      <header class="main-header">
+        <a href="index.html"><img class="logo" src="img/logo_small.png" height="70" width="138" alt="logo-small"></a>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="index.html">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="inner.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <img class="main-img" src="img/sedona_main.jpg" width="768" height="513" alt="welcome to Sedona">
       <div class="info">
         <p class="info-determ">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -35,7 +35,7 @@
       <div class="features-main">
         <div class="features-img  clearfix">
           <div class="features-img-right">
-            <b class="features-name white-name">Настоящий городок</b>
+            <div class="features-name white-name">Настоящий городок</div>
             <span class="features-number">-№1-</span>
             <p class="features-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
           </div>
@@ -44,23 +44,23 @@
         <div class="features clearfix">
           <div class="features-item">
             <div class="icon-home"></div>
-            <b class="features-name">Жилье</b>
+            <div class="features-name">Жилье</div>
             <p class="features-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
           <div class="features-item ">
             <div class="icon-burger"></div>
-            <b class="features-name">Еда</b>
+            <div class="features-name">Еда</div>
             <p class="features-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </div>
           <div class="features-item ">
             <div class="icon-souvenir"></div>
-            <b class="features-name">Сувениры</b>
+            <div class="features-name">Сувениры</div>
             <p class="features-text">Не только китайского, но и местного производства!</p>
           </div>
         </div>
         <div class="features-img clearfix">
           <div class="features-img-left">
-            <b class="features-name white-name">Там есть мост дьявола</b>
+            <div class="features-name white-name">Там есть мост дьявола</div>
             <span class="features-number">-№2-</span>
             <p class="features-text">Да, по нему можно пройти!Если конечно вы осмелитесь</p>
           </div>
@@ -68,72 +68,72 @@
         </div>
         <div class="features features-gray clearfix">
           <div class="features-item">
-             <b class="reasons-name">Небольшая площадь</b>
-             <span class="reasons-number">-№3-</span>
-             <p class="reasons-text">Все достопримеча-тельности находятся очень близко</p>
-           </div>
-           <div class="features-item">
-             <b class="reasons-name">Красивая дорога</b>
-             <span class="reasons-number">-№4-</span>
-             <p class="reasons-text" >Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-           </div>
-           <div class="features-item">
-             <b class="reasons-name">Мало туристов</b>
-             <span class="reasons-number">-№5-</span>
-             <p class="reasons-text">Большинство едет в Гранд Каньон толпятся там</p>
-           </div>
-         </div>
+            <div class="reasons-name">Небольшая площадь</div>
+            <span class="reasons-number">-№3-</span>
+            <p class="reasons-text">Все достопримеча-тельности находятся очень близко</p>
+          </div>
+          <div class="features-item">
+            <div class="reasons-name">Красивая дорога</div>
+            <span class="reasons-number">-№4-</span>
+            <p class="reasons-text" >Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+          <div class="features-item">
+            <div class="reasons-name">Мало туристов</div>
+            <span class="reasons-number">-№5-</span>
+            <p class="reasons-text">Большинство едет в Гранд Каньон толпятся там</p>
+          </div>
+        </div>
       </div>
-       <div class="interests">
-         <b class="interests-name">Заинтересовались?</b>
-			   <p class="interests-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-		   </div>
-		   <div class="form">
-		     <form action="#" method="get">
+      <div class="interests">
+        <div class="interests-name">Заинтересовались?</div>
+        <p class="interests-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      </div>
+      <div class="form">
+        <form action="#" method="get">
           <fieldset>
             <a class="form-legend" href="javascript:void(0)" onclick="showHide('block_id')">Поис гостиницы в Седоне</a>
-            <div id="block_id">
+            <div class="block_hidden" id="block_id">
               <div class="form-group">
                 <div class="check-in">
                   <label class="form-label" for="ch-in">Дата заезда:</label>
-      				    <input type="text" name="check-in"  id="ch-in" value="24 апреля 2016">
-                  <div class="calender"></div>
+                  <input class="form-check-in" type="text" name="check-in"  id="ch-in" value="24 апреля 2016">
+                  <button class="calender"></button>
                 </div>
                 <div class="check-out">
                   <label class="form-label" for="ch-out">Дата выезда:</label>
-      				    <input type="text" name="check-out"  id="ch-out" value="4 июля 2016">
-                  <div class="calender"></div>
+                  <input class="form-check-out" type="text" name="check-out"  id="ch-out" value="4 июля 2016">
+                  <button class="calender"></button>
                 </div>
                 <div class="adult-number">
                   <label  class="form-label" for="ad">Взрослые:</label>
-      				    <input  type="text" name="adult" id="ad"  value="2">
-                  <div class="plus"></div>
-                  <div class="minus"></div>
-      				  </div>
+                  <input class="form-adult" type="text" name="adult" id="ad"  value="2">
+                  <button class="plus"></button>
+                  <button class="minus"></button>
+                </div>
                 <div class="child-number">
                   <label  class="form-label" for="chld" >Дети:</label>
-      				    <input type="text" name="child" id="chld" value="0">
-                  <div class="plus"></div>
-                  <div class="minus"></div>
+                  <input class="form-child" type="text" name="child" id="chld" value="0">
+                  <button class="plus"></button>
+                  <button class="minus"></button>
                 </div>
-    				  </div>
+              </div>
               <button class="btn" type="submit">Найти</button>
             </div>
           </fieldset>
-    		 </form>
-		   </div>
-       <img class="map" src="img/map.jpg" width="768" height="593" alt="map">
-	 </main>
-	 <footer class="main-footer clearfix">
-       <a class="visit" href="#">#Visitsedona</a>
-		   <div class="footer-social">
-         <a class="social-btn social-btn-twitter" href="#"></a>
-         <a class="social-btn social-btn-fb" href="#"></a>
-         <a class="social-btn social-btn-youtube" href="#"></a>
-       </div>
-       <span class="developers">Website by</span>
-		   <a class="developers-img" href="https://htmlacademy.ru/"></a>
-	  </footer>
-    <script type="text/javascript" src="js/script.js"></script>
+        </form>
+      </div>
+      <img class="map" src="img/map.jpg" width="768" height="593" alt="map">
+      <footer class="main-footer clearfix">
+        <a class="visit" href="#">#Visitsedona</a>
+        <div class="footer-social">
+          <a class="social-btn social-btn-twitter" href="#"></a>
+          <a class="social-btn social-btn-fb" href="#"></a>
+          <a class="social-btn social-btn-youtube" href="#"></a>
+        </div>
+        <span class="developers">Website by</span>
+        <a class="developers-img" href="https://htmlacademy.ru/"></a>
+      </footer>
+    </div>
+    <script type="text/javascript" src="js/script-minify.js"></script>
   </body>
 </html>
