@@ -43,18 +43,15 @@
         </div>
         <div class="features clearfix">
           <div class="features-item">
-            <div class="icon-home"></div>
-            <div class="features-name">Жилье</div>
+            <div class="features-name icon-home">Жилье</div>
             <p class="features-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
-          <div class="features-item ">
-            <div class="icon-burger"></div>
-            <div class="features-name">Еда</div>
+          <div class="features-item">
+            <div class="features-name icon-burger">Еда</div>
             <p class="features-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </div>
-          <div class="features-item ">
-            <div class="icon-souvenir"></div>
-            <div class="features-name">Сувениры</div>
+          <div class="features-item">
+            <div class="features-name icon-souvenir">Сувениры</div>
             <p class="features-text">Не только китайского, но и местного производства!</p>
           </div>
         </div>
@@ -88,40 +85,38 @@
         <div class="interests-name">Заинтересовались?</div>
         <p class="interests-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       </div>
-      <div class="form">
-        <form action="#" method="get">
-          <fieldset>
-            <a class="form-legend" href="javascript:void(0)" onclick="showHide('block_id')">Поис гостиницы в Седоне</a>
-            <div class="block_hidden" id="block_id">
-              <div class="form-group">
-                <div class="check-in">
-                  <label class="form-label" for="ch-in">Дата заезда:</label>
-                  <input class="form-check-in" type="text" name="check-in"  id="ch-in" value="24 апреля 2016">
-                  <button class="calender"></button>
-                </div>
-                <div class="check-out">
-                  <label class="form-label" for="ch-out">Дата выезда:</label>
-                  <input class="form-check-out" type="text" name="check-out"  id="ch-out" value="4 июля 2016">
-                  <button class="calender"></button>
-                </div>
-                <div class="adult-number">
-                  <label  class="form-label" for="ad">Взрослые:</label>
-                  <input class="form-adult" type="text" name="adult" id="ad"  value="2">
-                  <button class="plus"></button>
-                  <button class="minus"></button>
-                </div>
-                <div class="child-number">
-                  <label  class="form-label" for="chld" >Дети:</label>
-                  <input class="form-child" type="text" name="child" id="chld" value="0">
-                  <button class="plus"></button>
-                  <button class="minus"></button>
-                </div>
+      <form class="form" action="#" method="get">
+        <fieldset>
+          <a class="form-legend" href="javascript:void(0)" onclick="showHide('block_id')">Поиск гостиницы в Седоне</a>
+          <div class="block_hidden" id="block_id">
+            <div class="form-group">
+              <div class="check-in">
+                <label class="form-label" for="ch-in">Дата заезда:</label>
+                <input class="form-check-in" type="text" name="check-in"  id="ch-in" value="24 апреля 2016">
+                <button class="calendar"></button>
               </div>
-              <button class="btn" type="submit">Найти</button>
+              <div class="check-out">
+                <label class="form-label" for="ch-out">Дата выезда:</label>
+                <input class="form-check-out" type="text" name="check-out"  id="ch-out" value="4 июля 2016">
+                <button class="calendar"></button>
+              </div>
+              <div class="adult-number">
+                <label  class="form-label" for="ad">Взрослые:</label>
+                <input class="form-adult" type="text" name="adult" id="ad"  value="2">
+                <button class="plus"></button>
+                <button class="minus"></button>
+              </div>
+              <div class="child-number">
+                <label  class="form-label" for="chld" >Дети:</label>
+                <input class="form-child" type="text" name="child" id="chld" value="0">
+                <button class="plus"></button>
+                <button class="minus"></button>
+              </div>
             </div>
-          </fieldset>
-        </form>
-      </div>
+            <button class="btn" type="submit">Найти</button>
+          </div>
+        </fieldset>
+      </form>
       <img class="map" src="img/map.jpg" width="768" height="593" alt="map">
       <footer class="main-footer clearfix">
         <a class="visit" href="#">#Visitsedona</a>
